@@ -11,8 +11,9 @@ namespace xp.solid._1_Single_Responsibility.Violation
 
         public void Onboard()
         {
-            // Do Student Enrollment     
-            
+            // Do Student Enrollment                 
+
+            //MakeFeesPayment();
         }
 
         public void Deboard()
@@ -20,11 +21,15 @@ namespace xp.solid._1_Single_Responsibility.Violation
             // Do Student Offboard
         }
 
+        public void MakeFeesPayment(Student student)
+        {
+
+        }
+
         //Violation of SRP
         public void VehicleParkingAllotment(Student student)
         {
-            //
-
+            
         }
 
     }

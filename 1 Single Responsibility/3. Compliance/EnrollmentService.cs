@@ -17,5 +17,10 @@ namespace xp.solid._1_Single_Responsibility.Compliance
             // Do Student Offboard
         }
 
+        public void MakeFeesPayment(Student student)
+        {
+
+        }
+
     }
 }
