@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>xp.solid</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="2 OCP\Compliance\" />
+    <Folder Include="2 OCP\Violation\" />
+    <Folder Include="3 Liskov Substitution\Compliance\" />
+    <Folder Include="3 Liskov Substitution\Violation\" />
+    <Folder Include="4 Dependency Inversion\Compliance\" />
+    <Folder Include="4 Dependency Inversion\Violation\" />
+    <Folder Include="5 Interface Segregation\Compliance\" />
+    <Folder Include="5 Interface Segregation\Violation\" />
+  </ItemGroup>
+
+</Project>
