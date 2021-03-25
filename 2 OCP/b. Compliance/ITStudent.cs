@@ -2,17 +2,17 @@
 
 namespace xp.solid._2_OCP.Compliance
 {
-    public class PartTimeStudent : IStudent
+    public class ITStudent : IStudent
     {
         public string StudentType()
         {
-            return "Part-Time";
+            return "IT";
         }
 
         List<string> IStudent.GetStudentSubjects()
         {
-            Logger.Logger.LogMessage("PartTimeStudent");
-            return new List<string> { "Sub 1", "Sub 2" ,"Subj 3"};
+            Logger.Logger.LogMessage("PartTimeStudent");            
+            return new List<string> { "AI in Programming", "Data Science" };
         }
 
     }

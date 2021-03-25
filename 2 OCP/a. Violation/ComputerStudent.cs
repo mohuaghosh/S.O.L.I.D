@@ -2,7 +2,7 @@
 
 namespace xp.solid._2_OCP.Violation
 {
-    public class PartTimeStudent
+    public class ComputerStudent
     {
         public List<string> GetStudentSubjects()
         {

@@ -11,21 +11,21 @@ namespace xp.solid._2_OCP.Violation
             return new List<string>();
         }
 
-        public void GetStudentSubjectDetails(int studentid, string studentType)
+        public void GetStudentSubjectDetails(int studentid, string courseType)
         {
             
             List<string> getPreviousYearSubjects = GetPreviousSubjectDetails(studentid);
             
             
             // OCP Violoation
-            switch (studentType)
+            switch (courseType)
             {
-                case "Full-Time":
-                    FullTimeStudent fullTimeStudent = new FullTimeStudent();
+                case "Computers":
+                    ComputerStudent fullTimeStudent = new ComputerStudent();
                     List<string> fullTimeSubjects = fullTimeStudent.GetStudentSubjects();
                     break;
 
-                case "Part-Time":
+                case "Electronic":
                     PartTimeStudent partTimeStudent = new PartTimeStudent();
                     List<string> partTimeSubjects = partTimeStudent.GetStudentSubjects();
                     break;

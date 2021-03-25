@@ -9,10 +9,8 @@
   <ItemGroup>
     <Folder Include="3 Liskov Substitution\b. Compliance\" />
     <Folder Include="3 Liskov Substitution\a. Violation\" />
-    <Folder Include="4 Dependency Inversion\b. Compliance\" />
-    <Folder Include="4 Dependency Inversion\a. Violation\" />
-    <Folder Include="5 Interface Segregation\b. Compliance\" />
-    <Folder Include="5 Interface Segregation\a. Violation\" />
+    <Folder Include="5 Dependency Inversion\b. Compliance\" />
+    <Folder Include="5 Dependency Inversion\a. Violation\" />
   </ItemGroup>
 
 </Project>

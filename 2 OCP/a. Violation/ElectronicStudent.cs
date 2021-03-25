@@ -2,7 +2,7 @@
 
 namespace xp.solid._2_OCP.Violation
 {
-    public class FullTimeStudent
+    public class ElectronicStudent
     {
         public List<string> GetStudentSubjects()
         {

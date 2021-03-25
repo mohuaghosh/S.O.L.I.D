@@ -4,17 +4,18 @@ using System.Text;
 
 namespace xp.solid._2_OCP.Compliance
 {
-    public class FullTimeStudent : IStudent
+    public class ElectronicStudent : IStudent
     {
         public string StudentType()
         {
-            return "Full-Time";
+            return "Electronic";
         }
 
         List<string> IStudent.GetStudentSubjects()
         {
             Logger.Logger.LogMessage("FullTimeStudent");
-            return new List<string> { "Sub 1", "Sub 2" };
+
+            return new List<string> { "Micro Processor 8085", "Micro Processor 8086" };
         }
 
        
