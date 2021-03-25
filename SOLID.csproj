@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="3 Liskov Substitution\Compliance\" />
-    <Folder Include="3 Liskov Substitution\Violation\" />
-    <Folder Include="4 Dependency Inversion\Compliance\" />
-    <Folder Include="4 Dependency Inversion\Violation\" />
-    <Folder Include="5 Interface Segregation\Compliance\" />
-    <Folder Include="5 Interface Segregation\Violation\" />
+    <Folder Include="3 Liskov Substitution\b. Compliance\" />
+    <Folder Include="3 Liskov Substitution\a. Violation\" />
+    <Folder Include="4 Dependency Inversion\b. Compliance\" />
+    <Folder Include="4 Dependency Inversion\a. Violation\" />
+    <Folder Include="5 Interface Segregation\b. Compliance\" />
+    <Folder Include="5 Interface Segregation\a. Violation\" />
   </ItemGroup>
 
 </Project>

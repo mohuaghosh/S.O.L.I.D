@@ -13,7 +13,8 @@ namespace xp.solid._2_OCP.Compliance
 
         List<string> IStudent.GetStudentSubjects()
         {
-            return new List<string>();
+            Logger.Logger.LogMessage("FullTimeStudent");
+            return new List<string> { "Sub 1", "Sub 2" };
         }
 
        
