@@ -6,6 +6,8 @@ namespace xp.solid._2_OCP.Violation
 {
     public class Student
     {
+        public object CourseTypes { get; private set; }
+
         public List<string> GetPreviousSubjectDetails(int Id)
         {
             return new List<string>();
@@ -21,13 +23,13 @@ namespace xp.solid._2_OCP.Violation
             switch (courseType)
             {
                 case "Computers":
-                    ComputerStudent fullTimeStudent = new ComputerStudent();
-                    List<string> fullTimeSubjects = fullTimeStudent.GetStudentSubjects();
+                    ComputerStudent computerStudent = new ComputerStudent();
+                    List<string> courseComputer = computerStudent.GetStudentSubjects();
                     break;
 
-                case "Electronic":
-                    PartTimeStudent partTimeStudent = new PartTimeStudent();
-                    List<string> partTimeSubjects = partTimeStudent.GetStudentSubjects();
+                case "Electronics":
+                    ComputerStudent ElectronicsStudent = new ComputerStudent();
+                    List<string> courseElectronics = electronicsStudent.GetStudentSubjects();
                     break;
 
             }
